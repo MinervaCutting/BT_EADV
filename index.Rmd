@@ -1,0 +1,192 @@
+---
+title: <br><br><center>EADV GROUP - Hotel Options 🏨 <center>
+author: "Minerva Martinez"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    thumbnails: false
+    lightbox: true
+    gallery: true
+    css: form.css
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+## **MAP **
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1DClh3UJigeo64k0HmapspmqIrIVQA0jw&hl=es" width="100%" height="480"></iframe>
+
+
+## **220 Hotel Liabeny **
+
+Located just 200 m from Puerta del Sol in the centre of Madrid, Liabeny includes a gym with a sauna.
+
+Offering classic services such as turndown, concierge and bellboy, **Hotel Liabeny** offers traditional accommodation withing walking distance to the most popular attractions such as Plaza mayor, Royal Palace or Debod Temple.
+
+Rooms at **Hotel Liabeny** feature a flat-screen TV and free Wi-Fi, the private bathroom comes with free toiletries.
+
+Many of Madrid's attractions are just a short walk from the Liabeny. The Prado and Thyssen-Bornemisza Museums are less than 10 minutes away.
+
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/170/17023748.jpg" width="385"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/170/17022311.jpg" width="380" align="right"> 
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/170/17025182.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+
+
+<p class="comment">
+Double room for single use: 220€ Breakfast and VAT inc </p>
+
+<style>
+p.comment {
+background-color:ffcc99 ;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+<p class="comment">
+*As the hotel is located in a semi-pedestrian street, the hotel rates are including the transfer from/to the Airport: 3 vans up to 21 pax* </p>
+
+*****
+
+
+## **250 Hotel Catalonia Atocha **
+
+This stylish hotel has a furnished roof terrace with a seasonal hot tub, bar and wonderful views of Madrid. Rooms include free Wi-Fi and flat-screen satellite TV. Atocha Train Station is 500 m away.
+
+**Hotel Catalonia Atocha** is situated within 600 m of the Reina Sofia and Prado Museums. The lively tapas bars of La Latina are a 10-minute walk away. Antón Martín Metro Station is just 50 m from the hotel.
+
+The hotel’s air-conditioned rooms are decorated in elegant light colours and have wooden floors. Each room has a minibar and a safe. Bathrooms come with a large shower.
+
+The **Catalonia Atocha** offers a daily buffet breakfast, including local cured meats, cheese and pastries. Traditional Spanish cuisine is served in the restaurant, and there is also a snack bar.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/408/40899194.jpg" width="400"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/408/40899202.jpg" width="360" align="right"> 
+
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/171/17177879.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+<p class="comment">
+Double room for single use: 250€ Breakfast and VAT inc </p>
+
+*****
+
+
+## **275 Hotel Iberostar Las Letras Gran Via **
+
+Set in a restored historic building, this design hotel offers a seasonal rooftop terrace with a stylish bar and a seasonal pool with spectacular views over Madrid. Rooms have a flat-screen TV. Free high speed WiFi is available throughout.
+
+**Iberostar Las Letras Gran Via** has a literary theme, and includes a well-stocked library. Rooms have high ceilings, large windows and a seating area. They are individually decorated with quotes by famous writers and poets.
+
+The hotel’s restaurant, serves informal haute-cuisine. There is also an en elegant and peaceful lounge bar, which offers breakfast, snacks and tapas throughout the day. By night it transforms into a lively bar, with innovative cocktails and mixed drinks.
+
+Located on Gran Vía Avenue, the **Iberostar Las Letras Gran Via** is a 10-minute walk from the Thyssen-Bornemisza and Prado Museums. Puerta del Sol is 500 m away, and the hotel is only 150 m from Gran Via Metro Station.
+
+
+<img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/151/151928868.jpg" width="385"> <img src = "https://r-ak.bstatic.com/images/hotel/max1024x768/152/152546880.jpg" width="385" align="right"> 
+
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/183/183651160.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+<p class="comment">
+Double room for single use: 275€ Breakfast and VAT inc </p>
+
+*****
+
+
+## **374 Hotel Paseo del Arte **
+
+Located in Madrid's Art Triangle, **Hotel Paseo Del Arte** is just 300 m from Atocha AVE Train Station. This design hotel offers a gym, restaurant and rooms with flat-screen satellite TV.
+
+Rooms at Paseo Del Arte feature minimalist design and plenty of natural light. They all include air conditioning and a modern bathroom with a hairdryer and toiletries.
+
+This hotel offers a business centre and 24-hour front desk. The hotel’s café overlooks Reina Sofia Museum.
+
+**Hotel Paseo Del Arte** is within a 10-minute walk of the Thyssen-Bornemisza and Prado Museums. The popular tapas bars of Santa Ana Square are 800 m away, and the Retiro Park is 600 m away.
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/276/27607830.jpg" width="445"> <img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/398/39867065.jpg" width="320" align="right"> 
+
+
+<img src = "https://q-ak.bstatic.com/images/hotel/max1024x768/436/43617771.jpg" width="100%">
+
+<style>
+p.comment {
+background-color: #ffcc99;
+padding: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+</style>
+
+<p class="comment">
+Double room for single use: 374€ Breakfast and VAT inc </p>
+
+*****
+
+
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for BUSINESS TRAVEL 
+  
+  * For a group of minimum 20 ROOMS and a minimum of 3 nights.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
